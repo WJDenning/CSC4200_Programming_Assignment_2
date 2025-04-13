@@ -1,3 +1,38 @@
-2025-04-13 04:35:05,840 - New connection from ('127.0.0.1', 56330)
-2025-04-13 04:35:09,578 - Received from ('127.0.0.1', 56330): hello
-2025-04-13 04:35:20,733 - f{addr} disconnected.
+2025-04-13 05:26:48,416 - New connection from ('127.0.0.1', 50552)
+2025-04-13 05:26:48,416 - Received Header:
+	Src Port: 5555
+	Dest Port: 5050
+	Seq: 1
+	Ack: 0
+	Syn: 1
+	Fin: 0
+	Payload Size: 0
+2025-04-13 05:26:48,416 - Received from ('127.0.0.1', 50552): 
+2025-04-13 05:26:48,417 - Received Header:
+	Src Port: 5555
+	Dest Port: 5050
+	Seq: 2
+	Ack: 1
+	Syn: 0
+	Fin: 0
+	Payload Size: 0
+2025-04-13 05:26:48,417 - Received from ('127.0.0.1', 50552): 
+2025-04-13 05:26:48,417 - Received Header:
+	Src Port: 5555
+	Dest Port: 5050
+	Seq: 3
+	Ack: 0
+	Syn: 0
+	Fin: 1
+	Payload Size: 0
+2025-04-13 05:26:48,417 - Received from ('127.0.0.1', 50552): 
+2025-04-13 05:26:48,417 - Received Header:
+	Src Port: 5555
+	Dest Port: 5050
+	Seq: 4
+	Ack: 0
+	Syn: 0
+	Fin: 0
+	Payload Size: 17
+2025-04-13 05:26:48,417 - Received from ('127.0.0.1', 50552): This is a payload
+2025-04-13 05:26:48,417 - f{addr} disconnected.
