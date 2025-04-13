@@ -6,7 +6,7 @@
   Simple setup through use of Makefile
 
 # Requirements
-  Python 3 \
+  Python 3 
   
 # Setup and Installation
   clone this repository "git clone https://github.com/WJDenning/CSC4200_Programming_Assignment_2.git" \
