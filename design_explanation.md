@@ -18,3 +18,10 @@
   | SYN Flag      | 1 byte   | 0 or 1 – Indicates connection initiation  |\
   | FIN Flag      | 1 byte   | 0 or 1 – Indicates connection termination |\
   | Payload Size  | 2 bytes  | Length of the message payload             |\
+
+# Server Response Logic
+
+  If SYN is 1, server responds: "SYN received – connection initiated"\
+  If ACK is 1, server responds: "ACK received – message acknowledged"\
+  If FIN is 1, server responds: "FIN received – connection closing"\
+  Otherwise, server responds: "Data received – payload length: X"
